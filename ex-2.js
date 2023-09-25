@@ -30,6 +30,7 @@ updateEmployees.push(
     hobbies: ["Computer games", "Wakeboard"]
   }
 )
+console.log(updateEmployees);
 updateEmployees.pop()
 console.log(employees);
 console.log(updateEmployees);
