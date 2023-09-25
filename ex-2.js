@@ -13,7 +13,9 @@ const employees = [
 ];
 // Start coding here
 let alex = employees[1].name;
-employees[1].hobbies.push("Watching Basketball");
+
+employees[1].hobbies.push("Watching basketball");
+
 let alexHobbies = employees[1].hobbies;
 let alexAndJamesAge = employees[0].age + employees[1].age;
 const updateEmployees = employees;
