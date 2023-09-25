@@ -49,5 +49,5 @@ let creditCardTypeOfBlindermann = orders[2].creditCardType;
 orders[2].creditCardType = "visa";
 let totalPurchaseOfJoannet = orders[3].productQuantity;
 let totalPurchaseOfDary = orders[1].productPrice * orders[1].productQuantity;
-delete orders[0];
+orders.shift();
 console.log(orders)
